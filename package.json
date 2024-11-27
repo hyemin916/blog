@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "license": "MIT",
+  "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@remix-run/node": "^2.15.0",
     "@remix-run/react": "^2.15.0",
@@ -11,11 +12,26 @@
     "isbot": "4",
     "postcss": "^8.4.49",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "@headlessui/react": "^2.1.0",
+    "@mapbox/rehype-prism": "^0.9.0",
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "cheerio": "^1.0.0-rc.12",
+    "clsx": "^2.1.0",
+    "fast-glob": "^3.2.11",
+    "feed": "^4.2.2",
+    "remark-gfm": "^4.0.0",
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.0",
-    "tailwindcss": "^3.4.15",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "sharp": "0.33.1",
     "vite": "^6.0.1"
   }
 }
